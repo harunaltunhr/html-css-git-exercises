@@ -7,7 +7,7 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
-.message {
+.message__time {
   font-size: 0.9rem;
 }
 .message--unread {
