@@ -1,6 +1,6 @@
 # HTML, CSS and Git exercises
 
-This repository contains exercises for CodeYourFuture students learning HTML, CSS and Git commands.
+This repository contains exercises for HYF students learning HTML, CSS and Git commands.
 
 ## Getting started
 
@@ -55,7 +55,7 @@ Before you can start the exercises, you must install all of the code necessary t
 npm install
 ```
 
-Carefully read the messages that appear. Are there any errors? If so, please ask a mentor for help.
+Carefully read the messages that appear. Are there any errors? If so, please ask a classmate for help.
 
 ### Begin working on the exercises
 
@@ -82,7 +82,3 @@ To run another exercise, run the following code with the correct number of that 
 ```
 npm run 2
 ```
-
-## When you have completed all exercises
-
-When you reach the final exercise, you'll be asked to submit a pull request. When you've finished that task, post in your Slack channel to let the mentors know that you have finished.
