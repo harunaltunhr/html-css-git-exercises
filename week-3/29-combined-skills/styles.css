@@ -1,1 +1,74 @@
 /* Add your own CSS code below */
+span {
+  color: #c85308;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 767px) {
+  div.site-wrapper {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  .site-search {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: 100;
+  }
+  .site-search {
+    align-items: baseline;
+  }
+  .views {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .views_all {
+    align-self: flex-end;
+  }
+  .view-list__item {
+    display: flex;
+    align-self: flex-start;
+    margin: 0.2em;
+  }
+  .viewleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  @media only screen and (min-width: 992px) {
+    .hero {
+      font-size: 4em;
+    }
+  }
+}
+.main-article {
+  max-width: 50em;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5em;
+}
